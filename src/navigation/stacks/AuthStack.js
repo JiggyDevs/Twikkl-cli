@@ -24,8 +24,6 @@ export default AuthStack = () => {
             <Stack.Screen name={authRouts.forgotPassword} component={ForgotPassword} options={{ headerShown: false }} />
             <Stack.Screen name={authRouts.otpVerification} component={OtpVerification} options={{ headerShown: false }} />
             <Stack.Screen name={authRouts.onboarding} component={OnboardingScene} options={{ headerShown: false }} />
-            <Stack.Screen name={profileRouts.transactionPin} component={TransactionPin} options={{ headerShown: false }} />
-            <Stack.Screen name={profileRouts.verifyBvn} component={VerifyBVN} options={{ headerShown: false }} />
         </Stack.Navigator>
     );
 }
