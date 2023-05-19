@@ -96,12 +96,12 @@ export default Login = ({ navigation }) => {
                 }}>
                 <View style={styles.container}>
                     <Text style={styles.title}>
-                        Welcome back to Swipe Monie
+                       Twikkle
                     </Text>
                     <Text style={styles.desc}>
-                        Login to your swipe monie account
+                        Login 
                     </Text>
-                    <KeyboardAvoidingView
+                    {/* <KeyboardAvoidingView
                         behavior={Platform.OS === "ios" ? "padding" : "height"}
                         style={styles.inputWrapper} >
                         <TextInput
@@ -158,7 +158,7 @@ export default Login = ({ navigation }) => {
                         enabled={canProceed & !processing} />
 
                     <Text style={styles.footerText}>Don’t have an account? <Text style={styles.footerLink}
-                        onPress={() => { navigation.navigate(authRouts.signUp) }}>Sign Up</Text></Text>
+                        onPress={() => { navigation.navigate(authRouts.signUp) }}>Sign Up</Text></Text> */}
                 </View>
             </ScrollView>
         </>
